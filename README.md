@@ -1,6 +1,6 @@
 # Jeu de plateforme multijoueur avec Phaser
 
-Un jeu de plateforme en 2 niveaux, jouable à plusieurs, réalisé avec Phaser, Node.js, Express et Socket.IO.
+Un jeu de plateforme 2D en 2 niveaux, jouable à plusieurs, réalisé avec Phaser, Node.js et Socket.IO.
 
 ## But du jeu
 
@@ -29,4 +29,5 @@ node index.js
 ```
 
 Ouvre ensuite http://localhost:3000 dans ton navigateur. Pour tester le multijoueur, ouvre un deuxième onglet à la même adresse.
-
+Pour jouer à plusieurs sur le même réseau, les autres joueurs ouvrent `http://ADRESSE-IP:3000` dans leur navigateur, en remplaçant `ADRESSE-IP` par l'adresse de l'ordinateur qui lance le serveur.
+Pour la trouver sous Windows, tape `ipconfig` dans un terminal et regarde la ligne « Adresse IPv4 ».
